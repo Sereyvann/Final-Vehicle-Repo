@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { EditVehicleComponent } from './auth/components/edit-vehicle/edit-vehicle.component';
 import { FormComponent } from './auth/components/Form/form.component';
 import { OutputComponent } from './auth/components/Output/output.component';
 import { VehicleDashboardComponent } from './auth/components/vehicle-dashboard/vehicle-dashboard.component';
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'sign-up', component: SignUpComponent },
   { path: 'dashboard', component: VehicleDashboardComponent },
+  { path: 'edit', component: EditVehicleComponent },
 ];
 
 @NgModule({

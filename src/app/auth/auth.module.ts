@@ -6,13 +6,15 @@ import { OutputComponent } from './components/Output/output.component';
 import { FormComponent } from './components/Form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { VehicleDashboardComponent } from './components/vehicle-dashboard/vehicle-dashboard.component';
+import { EditVehicleComponent } from './components/edit-vehicle/edit-vehicle.component';
 
 
 @NgModule({
   declarations: [
     FormComponent,
     OutputComponent,
-    VehicleDashboardComponent
+    VehicleDashboardComponent,
+    EditVehicleComponent,
   ],
   imports: [
     CommonModule,
